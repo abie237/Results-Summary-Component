@@ -183,7 +183,10 @@ button:hover{
     .grid-1{
         border-radius: 0px 0px 40px 40px;
     }
-
+    .g-1{
+        justify-content: space-evenly;
+        margin-top: 12px;
+    }
     .sections{
         width: 75%;
         min-height: 90%;
@@ -216,12 +219,6 @@ button:hover{
     
 }
 
-@media screen and (max-width:475px){
-    .g-1{
-        justify-content: space-evenly;
-        margin-top: 12px;
-    }
-}
 
 @media screen and (max-width: 375px) {
 
